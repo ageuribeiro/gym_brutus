@@ -10,5 +10,4 @@
 
     dd($controller->seta());
 
-
 ?>
