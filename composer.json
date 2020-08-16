@@ -1,0 +1,15 @@
+{
+    "name": "ageuribeirodev/gymbrutus_framework_php",
+    "authors": [
+        {
+            "name": "Ageu Ribeiro",
+            "email": "ageu87@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\" :"app/"
+        }
+    }
+}
