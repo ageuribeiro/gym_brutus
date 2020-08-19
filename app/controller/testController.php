@@ -1,11 +1,14 @@
 <?php
     namespace app\controller;
+    use app\core\Controller;
 
-    class TestController
+    class TestController extends Controller
     {
-        public function seta()
+        public function index()
         {
-            return['nome' => 'ARibeiro'];
+            $this->load('home/main',[
+                'Nome'=>'Ageu Ribeiro'
+            ]);
         }
     }
 ?>

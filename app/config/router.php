@@ -1,10 +1,6 @@
 <?php
     $this->get('/', function(){
-        echo 'Page Home';
-    });
-
-    $this->get('/home/', function(){
-        echo 'Page Home';
+        (new \app\controller\TestController)->index();
     });
 
     $this->get('/about', function(){
@@ -14,4 +10,6 @@
     $this->get('/gym', function(){
         echo 'Page Gym';
     });
+
+    $this->get('/category', 'testController@seta');
 ?>
